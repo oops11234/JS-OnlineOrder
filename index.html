@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Javascript線上訂餐練習">
+  <meta name="keywords" content="Javascript線上訂餐">
+  <title>Javascript09</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style/main.css">
+  <script src="https://kit.fontawesome.com/bac0c39dfe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper container mx-auto">
+    <header class="header">
+      <h2 class="header__title">線上訂餐</h2>
+    </header>
+    <main class="main">
+      <div class="pd">
+        <p class="pd__paragh">您好 ! 歡迎光臨 ~ 請輸入需要餐點數量</p>
+        <div class="pd__itemList" id="ItemList">
+        </div>
+        <button class="pd__btn" id="PdButton" type="button">下一步</button>
+      </div>
+      <div class="order" id="Order">
+        <p class="order__paragh">以下是您的餐點明細</p>
+        <div class="order__itemList" id="OrderList">
+        </div>
+        <button class="pd__btn" id="ConfirmBtn" type="button">確認</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="./js/main.js">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* --- Layouts --- */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* --- Modules --- */
+.main__title{ 
+  font-size: 28px;
+}
